@@ -9,7 +9,7 @@ import (
 	"encoding/pem"
 	"fmt"
 	"hash/crc32"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
